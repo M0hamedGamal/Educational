@@ -1,0 +1,93 @@
+.about-home {
+    height: auto;
+}
+
+.about-home .heading {
+    text-align: left;
+    padding: 0;
+}
+
+.about-home .left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-home .right {
+    padding: 80px 50px;
+}
+
+.about-home .items {
+    margin-top: 50px;
+}
+
+.about-home .item {
+    background-color: white;
+    margin-top: 30px;
+    padding: 20px;
+    transition: .5s;
+}
+
+.about-home .img {
+    width: 200px;
+}
+
+.about-home img {
+    width: 70px;
+    height: 70px;
+}
+.about-home h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.about-home .item:hover {
+    background-color: #1eb2a6;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
+}
+
+.awrapper {
+    background-image: url("./images/awrapper.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    color: white;
+}
+
+.awrapper .box {
+    padding: 70px 0;
+}
+
+.awrapper img {
+    margin-right: 30px;
+}
+
+.awrapper h1 {
+    font-size: 50px;
+}
+
+.awrapper h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+    .about-home {
+        margin-top: 80%;
+    }
+
+    .about-home .container {
+        flex-direction: column-reverse;
+    }
+
+    .about-home .row {
+        width: 100%;
+    }
+
+    .awrapper {
+        height: 50vh;
+    }
+}
